@@ -11,6 +11,21 @@
   span {
     color: var(--caption);
   }
+
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 64px;
+
+    img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin-bottom: 16px;
+    }
+  }
 }
 
 .button {
